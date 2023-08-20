@@ -11,20 +11,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #000; /* Matte black background */
+    background: #000; 
     color: #fff;
     font-weight: 600;
-    overflow: hidden; /* Hide overflow to prevent stars from appearing outside */
+    overflow: hidden; 
 }
 
 .container {
-    border: 2px solid #00f; /* Blue border */
+    border: 2px solid #00f;
     border-radius: 10px;
     padding: 28px 32px;
     display: flex;
     flex-direction: column;
     background: transparent;
-    box-shadow: 0 0 20px rgba(0, 0, 255, 0.4), 0 0 40px rgba(0, 0, 255, 0.3); /* Glowing blue shadow */
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.4), 0 0 40px rgba(0, 0, 255, 0.3); 
     animation: glowingBorder 2s infinite;
 }
 
