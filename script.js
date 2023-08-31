@@ -70,6 +70,6 @@ for (let i = 0; i < numStars; i++) {
     star.className = "star";
     star.style.left = `${Math.random() * 100}%`;
     star.style.top = `${Math.random() * 100}%`;
-    star.style.animationDuration = `${Math.random() * 3 + 2}s`; // Vary animation duration for a more natural look
+    star.style.animationDuration = `${Math.random() * 3 + 2}s`; 
     document.querySelector(".background").appendChild(star);
 }
